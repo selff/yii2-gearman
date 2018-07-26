@@ -1,0 +1,18 @@
+{
+    "name": "selff/yii2-gearman",
+    "type": "yii2-extension",
+    "description": "simple client for gearman queue",
+    "keywords": ["gearman", "extension"],
+    "homepage": "https://github.com/selff/yii2-gearman",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "andrey",
+            "email": "selffmail@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "~2.0.14"
+    }
+}
