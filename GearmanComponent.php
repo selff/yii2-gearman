@@ -1,6 +1,7 @@
 <?php
 namespace selff\yii2\gearman;
 
+use Yii;
 /**
  * Created by PhpStorm.
  * User: livedune
