@@ -7,12 +7,25 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "andrey",
+            "name": "Andrey Selikov",
             "email": "selffmail@gmail.com"
-        }
+        },
+        {
+            "name": "Ilya Bizunov",
+            "email": "bizunow13@gmail.com"
+        },
     ],
     "minimum-stability": "dev",
     "require": {
-        "yiisoft/yii2": "~2.0.14"
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+    },
+    "suggest": {
+        "ext-gearman": "This library needs Gearman"
+    },    
+    "autoload": {
+        "psr-4": {
+            "selff\\yii2\\gearman\\": ""
+        }
     }
 }
